@@ -1,0 +1,32 @@
+{
+  "name": "aplicacion-del-clima-heroku-node",
+  "version": "1.0.0",
+  "description": "_Para esta práctica haremos un ejercicio integrador donde consumiremos una API real, y tendremos que leer una documentación para poder traer la información de interés de la API  del clima a nuestra aplicación._",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NatachaVergara/canal-del-clima-heroku-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NatachaVergara/canal-del-clima-heroku-node/issues"
+  },
+  "homepage": "https://github.com/NatachaVergara/canal-del-clima-heroku-node#readme",
+  "dependencies": {
+    "apicache": "^1.6.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-rate-limit": "^6.3.0",
+    "needle": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
