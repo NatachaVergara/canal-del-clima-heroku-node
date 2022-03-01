@@ -1,0 +1,23 @@
+.bg-db{
+    background-color: #274472;
+}
+
+.bg-new{
+    background-color: rgba(240, 248, 255, 0.507);
+    color: aliceblue;
+    text-shadow: black;
+    height: calc(3.5rem + 2px);
+}
+
+.bg-navy{
+    background-color: #18335f80;
+}
+
+.circle-weather{
+    background-color: rgba(240, 248, 255, 0.507);
+    color: aliceblue;
+    text-shadow: black;
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+}
