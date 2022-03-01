@@ -37,7 +37,7 @@ const peticionClima = async (ciudad) => {
     const mostrarData = {
         ciudad: data.name,
         pronostico: `${data.weather[0].description}`,
-        temperatura: `${data.main.temp}°`,
+        temperatura: `${kelvinACelcius(data.main.temp)}°`,//
         humedad: `${data.main.humidity}%`,
         viento: data.wind.speed
     }
@@ -47,6 +47,13 @@ const peticionClima = async (ciudad) => {
 
 
 }
+//convierto la temperatura a Celcius
+const kelvinACelcius = (temp) => {
+    temp = parseFloat(temp)
+    return temp = Math.ceil(temp - 273.15)
+}
+
+
 
 let mostrarDatos = document.querySelector('.mostrarData')
 //innetHTML, llamo al callback y presento los datos dentro de un temple literal
